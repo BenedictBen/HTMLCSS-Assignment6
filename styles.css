@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    padding: 2px 15px;
+    background-color: #41644A;
+}
+
+.container{
+display: flex;
+/* align-items: center;
+justify-content: center; */
+flex-direction: column;
+gap: 20px;
+color: white;
+}
+
+.heading{
+    
+    color: rgb(160, 233, 42);
+    font-size: 80px;
+}
+.intro{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.brief{
+    width: 40vw;
+}
+
+
+.wrapper-instructions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+   font-size: x-large;
+        color: rgb(160, 233, 42);
+}
+
+img{
+    max-width: 500px;
+}
